@@ -1,3 +1,15 @@
 extends: tslint-config-airbnb
 rules:
+  class-name: true # クラス名をパスカルケースに強制
   import-name: false # Vue Componentをexport defaultできないので無効化
+  member-access: true # public,protected,privateの付与を強制
+  no-inferrable-types: true # 型推論可能な場合は型を書かない
+  no-string-throw: true # 文字列のthrowを禁止
+  no-unused-expression: false # 使用していない変数の定義を許可
+  object-literal-sort-keys: true # オブジェクトリテラルをアルファベット順に並べる
+  prefer-method-signature: true # foo: () => voidではなくfoo(): voidを推奨する
+  prefer-object-spread: true # Object.assignより分割代入を推奨する
+  prefer-template: true # 文字列結合よりテンプレートリテラルを推奨する
+  typedef: # 型の定義を強制する
+    - true
+    - call-signature # 関数の戻り値
