@@ -11,7 +11,7 @@
 * Yarn
 * **TypeScript** / Decorator
 * **Nuxt.js** / TSLint / Storybook
-* **Sass** / Stylelint
+* **Sass** / Stylelint / RSCSS
 
 ## 🛠 Architecture
 
